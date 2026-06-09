@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Deep Navy & Cream — exact locked swatches */
+  --color-cream: #faf6ee;
+  --color-sand: #e8dfcf;
+  --color-navy: #1f3252;
+  --color-deep-navy: #0e1c33;
+
+  --bg-color: #0e1c33;
+  --fg-color: #faf6ee;
+  --primary-color: #faf6ee;
+  --accent-color: #e8dfcf;
+}
+
+html,
+body {
+  background: var(--bg-color);
+  color: var(--fg-color);
+  font-family: var(--font-body), "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: var(--font-display), "Archivo Black", ui-sans-serif, sans-serif;
+}
+
+/* Consistent vertical rhythm for content sections */
+.section-pad {
+  padding-top: clamp(48px, 6vw, 96px);
+  padding-bottom: clamp(48px, 6vw, 96px);
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--primary-color);
+  color: var(--bg-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,13 @@
+[
+  { "slot": "section-about",     "keyword": "football stadium crowd floodlights", "orientation": "landscape" },
+  { "slot": "section-cta",       "keyword": "soccer stadium night floodlights",    "orientation": "landscape" },
+  { "slot": "section-showcase-1","keyword": "world cup soccer match action",       "orientation": "landscape" },
+  { "slot": "section-showcase-2","keyword": "football fans celebrating stadium",   "orientation": "landscape" },
+  { "slot": "section-showcase-3","keyword": "soccer stadium aerial pitch",         "orientation": "landscape" },
+  { "slot": "section-showcase-4","keyword": "soccer player kicking ball",          "orientation": "landscape" },
+  { "slot": "service-live",      "keyword": "soccer match live broadcast screen",  "orientation": "landscape" },
+  { "slot": "service-ratings",   "keyword": "soccer player closeup intense",       "orientation": "landscape" },
+  { "slot": "service-predictions","keyword": "soccer tactics analysis board",      "orientation": "landscape" },
+  { "slot": "service-standings", "keyword": "world cup trophy stadium",            "orientation": "landscape" },
+  { "slot": "og-image",          "keyword": "world cup soccer stadium dramatic",   "orientation": "landscape", "w": 1200, "h": 630 }
+]
